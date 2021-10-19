@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quản Lý Công Việc</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<style>
+    h1 {
+        margin-bottom: 70px;
+    }
+    .container {
+        max-width: 800px;
+    }
+    .fas {
+        font-size: 14px;
+    }
+    .col-8 {
+        text-align: left;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+</style>
+<body>
+
+<div class="container-fluid" style="margin-top: 30px;">
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Quản Lý Công Việc</h1>
+            <div class="row">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Thêm công việc ... ">
+                    <div class="input-group-append">
+                      <button class="btn btn-success" type="submit">Thêm</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <button type="button" class="btn btn-info" style="min-width: 150px;">Tất Cả</button>
+                </div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-success"  style="min-width: 150px;">Đã Xong</button>
+                </div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-warning" style="min-width: 150px;">Chưa Xong</button>
+                </div>
+            </div>
+            <u><p style="margin-top: 20px; text-align: center;">Có 5 công việc</p></u>
+
+            <div class="row" style="margin: 20px;">
+                <div class="col-8" style="float: left;">
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">Tập Thể Dục
+                        </label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-info" style=" margin: 0px 20px; float: r;"><i class="fas fa-pen"></i> Sửa</button>
+                    </label>
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Xóa</button>
+                    </label>
+                </div>
+            </div>
+            <div class="row" style="margin: 20px;">
+                <div class="col-8" style="float: left;">
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">Ăn
+                        </label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-info" style=" margin: 0px 20px; float: r;"><i class="fas fa-pen"></i> Sửa</button>
+                    </label>
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Xóa</button>
+                    </label>
+                </div>
+            </div>
+            <div class="row" style="margin: 20px;">
+                <div class="col-8" >
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">Học Công Nghệ Phần Mềm
+                        </label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-info" style=" margin: 0px 20px; float: r;"><i class="fas fa-pen"></i> Sửa</button>
+                    </label>
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Xóa</button>
+                    </label>
+                </div>
+            </div>
+            <div class="row" style="margin: 20px;">
+                <div class="col-8" >
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">Học Đại Số Tuyến Tính
+                        </label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-info" style=" margin: 0px 20px; float: r;"><i class="fas fa-pen"></i> Sửa</button>
+                    </label>
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Xóa</button>
+                    </label>
+                </div>
+            </div>
+            <div class="row" style="margin: 20px;">
+                <div class="col-8" >
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">Giải Trí
+                        </label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-info" style=" margin: 0px 20px; float: r;"><i class="fas fa-pen"></i> Sửa</button>
+                    </label>
+                    <label class="form-check-label">
+                        <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Xóa</button>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
